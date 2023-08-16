@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 50px;
+    width: 100vw;
+    background-color: blueviolet;
+    color: white;
+}
+
+.nav-part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.btn{
+    border: none;
+    height: 30px;
+    width: 70px;
+    background-color: aqua;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
