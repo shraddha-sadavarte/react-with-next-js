@@ -25,6 +25,17 @@ html,body{
     justify-content: center;
     align-items: center;
     gap: 30px;
+    cursor: pointer;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: brown;
+    scale: 0.8;
 }
 
 .btn{
@@ -35,4 +46,12 @@ html,body{
     color: black;
     padding: 5px;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(20, 148, 148);
+    box-shadow: 0 0 1px 1px rgb(8, 86, 86);
+    scale: 0.8;
+    color: white;
 }

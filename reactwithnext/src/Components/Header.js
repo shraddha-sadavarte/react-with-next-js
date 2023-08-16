@@ -1,16 +1,17 @@
+import Link from 'next/link';
 import React from 'react';
-import './Header.css'
+import './Header.css';
 
-const Header = (props) => {
+const Header = () => {
   return (
     <>
     <div className='nav'>
-      <h1>{props.user}</h1>
+      <h1>Logo</h1>
       <div className='nav-part2'>
-        <h4>About</h4>
-        <h4>Services</h4>
-        <h4>Blog</h4>
-        <h4>Contact</h4>
+        <Link href="/" className='link'>Home</Link>
+        <Link href="/About" className='link'>About</Link>
+        <Link href="/Services" className='link'>Services</Link>
+        <Link href="/Contact" className='link'>Contact</Link>
         <button className='btn'>Log In</button>
       </div>
     </div>

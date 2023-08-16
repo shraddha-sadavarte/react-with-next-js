@@ -1,12 +1,10 @@
 "use client"
-import Header from '@/Components/Header'
-import React, { useState } from 'react'
+import React from 'react' 
 
 const page = () => {
-  const [user, setUser] = useState("Shraddha");
   return (
     <>
-      <Header user={user}/>
+      <h1>This is home page</h1>
     </>
   )
 }
